@@ -1,0 +1,23 @@
+1.观察者模式原理
+  对象之间多对一依赖的一种设计方法，被依赖的对象为Subject，依赖的对象为Observer,Subject通知Observer变化。
+  多对1： Observer 对 Subject
+  其业务类型，有点类似于订阅邮件。
+
+
+2.Subject 接口
+  定义三个方法：
+    registerObserver();
+    removeObserver();
+    notifyObservers();
+
+3.Obersver 接口
+  定义所有依赖对象需要重写的方法。
+
+4.java内置的Observable类
+
+5.观察者模式的关键点
+   注册对象，动态通知信息。
+
+6.观察者模式的意义
+   对象之间松耦合、对象内部高内聚、隔离影响
+  
