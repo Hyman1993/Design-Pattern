@@ -1,4 +1,4 @@
-# Design-Pattern
+# 设计模式/デザインパターン/Design Pattern
 设计模式/デザインパターン/Design Pattern
 
 一、策略模式 Strategy Pattern
